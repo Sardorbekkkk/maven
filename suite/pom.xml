@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.merion</groupId>
+
+    <artifactId>maven</artifactId>
+
+    <version>1.0.0</version>
+
+    <packaging>pom</packaging>
+
+    <name>suite</name>
+
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <maven.compiler.sourse>17</maven.compiler.sourse>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.ph</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Sardorbek Kodirov</name>
+            <email>sarthekadirov@gmail.com</email>
+            <organization>com.github.Sardorbekkkk-maven</organization>
+            <organizationUrl>https://github.com/Sardorbekkkk/maven</organizationUrl>
+        </developer>
+    </developers>
+
+    <modules>
+        <module>../core</module>
+        <module>../service</module>
+        <module>../console</module>
+    </modules>
+
+</project>
